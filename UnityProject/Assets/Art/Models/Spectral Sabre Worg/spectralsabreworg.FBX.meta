@@ -1,0 +1,409 @@
+fileFormatVersion: 1
+guid: baceebcccfb0d6d4fa30ab2c81ac4e24
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+    clips:
+      Idle_1:
+        firstFrame: 1
+        lastFrame: 83
+        loop: 0
+        wrapMode: 0
+      Attack_1:
+        firstFrame: 134
+        lastFrame: 158
+        loop: 0
+        wrapMode: 0
+      Death:
+        firstFrame: 209
+        lastFrame: 253
+        loop: 0
+        wrapMode: 0
+      Attack_2:
+        firstFrame: 304
+        lastFrame: 353
+        loop: 0
+        wrapMode: 0
+      Idle_2:
+        firstFrame: 404
+        lastFrame: 486
+        loop: 0
+        wrapMode: 0
+      Run:
+        firstFrame: 537
+        lastFrame: 555
+        loop: 0
+        wrapMode: 0
+      Sprint:
+        firstFrame: 537
+        lastFrame: 555
+        loop: 0
+        wrapMode: 0
+      JumpStart:
+        firstFrame: 605
+        lastFrame: 625
+        loop: 0
+        wrapMode: 0
+      JumpEnd:
+        firstFrame: 676
+        lastFrame: 683
+        loop: 0
+        wrapMode: 0
+      Jumping:
+        firstFrame: 734
+        lastFrame: 766
+        loop: 0
+        wrapMode: 0
+      BattleCry:
+        firstFrame: 817
+        lastFrame: 925
+        loop: 0
+        wrapMode: 0
+      Attack_3:
+        firstFrame: 1209
+        lastFrame: 1243
+        loop: 0
+        wrapMode: 0
+  nodeInfo:
+    spectralsaberworg_Bone5_ShoulderL:
+    - 100000
+    - 400000
+    spectralsaberworg_Bone6_ShoulderR:
+    - 100002
+    - 400002
+    spectralsaberworg_Bone68:
+    - 100004
+    - 400004
+    spectralsaberworg_Bone_Root:
+    - 100006
+    - 400006
+    spectralsaberworg_13:
+    - 100008
+    - 400008
+    - 13700000
+    spectralsaberworg_Bone49:
+    - 100010
+    - 400010
+    spectralsaberworg_Bone18:
+    - 100012
+    - 400012
+    Ref_Hardpoint 02:
+    - 100014
+    - 400014
+    spectralsaberworg_Bone56:
+    - 100016
+    - 400016
+    spectralsaberworg_Bone22:
+    - 100018
+    - 400018
+    spectralsaberworg_2:
+    - 100020
+    - 400020
+    - 13700002
+    spectralsaberworg_Bone20:
+    - 100022
+    - 400022
+    spectralsaberworg_Bone9:
+    - 100024
+    - 400024
+    spectralsaberworg_Bone58:
+    - 100026
+    - 400026
+    spectralsaberworg_Bone51:
+    - 100028
+    - 400028
+    spectralsaberworg_Bone17:
+    - 100030
+    - 400030
+    spectralsaberworg_Bone7_Head:
+    - 100032
+    - 400032
+    spectralsaberworg_Bone3:
+    - 100034
+    - 400034
+    Ref_Hardpoint 01:
+    - 100036
+    - 400036
+    spectralsaberworg_12:
+    - 100038
+    - 400038
+    - 13700004
+    spectralsaberworg_9:
+    - 100040
+    - 400040
+    - 13700006
+    spectralsaberworg_10:
+    - 100042
+    - 400042
+    - 13700008
+    spectralsaberworg_11:
+    - 100044
+    - 400044
+    - 13700010
+    spectralsaberworg_Bone71:
+    - 100046
+    - 400046
+    spectralsaberworg_Bone69_BTH:
+    - 100048
+    - 400048
+    spectralsaberworg_Bone30:
+    - 100050
+    - 400050
+    spectralsaberworg_Bone24:
+    - 100052
+    - 400052
+    spectralsaberworg_Bone27:
+    - 100054
+    - 400054
+    spectralsaberworg_Bone21:
+    - 100056
+    - 400056
+    spectralsaberworg_Bone11_ArmL:
+    - 100058
+    - 400058
+    spectralsaberworg_Bone4:
+    - 100060
+    - 400060
+    spectralsaberworg_Bone10:
+    - 100062
+    - 400062
+    spectralsaberworg_Bone38:
+    - 100064
+    - 400064
+    Ref_Weapon Right:
+    - 100066
+    - 400066
+    Ref_Hardpoint 03:
+    - 100068
+    - 400068
+    spectralsaberworg_Bone23:
+    - 100070
+    - 400070
+    spectralsaberworg_Bone55:
+    - 100072
+    - 400072
+    spectralsaberworg_Bone41:
+    - 100074
+    - 400074
+    spectralsaberworg_Bone42:
+    - 100076
+    - 400076
+    spectralsaberworg_Bone59:
+    - 100078
+    - 400078
+    spectralsaberworg_Bone60:
+    - 100080
+    - 400080
+    spectralsaberworg_Bone26:
+    - 100082
+    - 400082
+    spectralsaberworg_Bone39:
+    - 100084
+    - 400084
+    spectralsaberworg_Bone25:
+    - 100086
+    - 400086
+    spectralsaberworg_Bone28:
+    - 100088
+    - 400088
+    spectralsaberworg_Bone19:
+    - 100090
+    - 400090
+    spectralsaberworg_4:
+    - 100092
+    - 400092
+    - 13700012
+    spectralsaberworg_5:
+    - 100094
+    - 400094
+    - 13700014
+    spectralsaberworg_Bone40:
+    - 100096
+    - 400096
+    spectralsaberworg_Bone8_Waist:
+    - 100098
+    - 400098
+    spectralsaberworg_Bone53:
+    - 100100
+    - 400100
+    spectralsaberworg_6:
+    - 100102
+    - 400102
+    - 13700016
+    spectralsaberworg_Bone45:
+    - 100104
+    - 400104
+    spectralsaberworg_Bone29:
+    - 100106
+    - 400106
+    spectralsaberworg_3:
+    - 100108
+    - 400108
+    - 13700018
+    //RootNode:
+    - 100110
+    - 400110
+    - 11100000
+    spectralsaberworg_Bone43:
+    - 100112
+    - 400112
+    spectralsaberworg_Bone44:
+    - 100114
+    - 400114
+    spectralsaberworg_Bone50:
+    - 100116
+    - 400116
+    spectralsaberworg_Bone32:
+    - 100118
+    - 400118
+    spectralsaberworg_Bone48:
+    - 100120
+    - 400120
+    spectralsaberworg_Bone33:
+    - 100122
+    - 400122
+    spectralsaberworg_Bone70:
+    - 100124
+    - 400124
+    spectralsaberworg_Bone34:
+    - 100126
+    - 400126
+    spectralsaberworg_0:
+    - 100128
+    - 400128
+    - 13700020
+    spectralsaberworg_7:
+    - 100130
+    - 400130
+    - 13700022
+    spectralsaberworg_Bone46:
+    - 100132
+    - 400132
+    spectralsaberworg_Bone52:
+    - 100134
+    - 400134
+    spectralsaberworg_Bone47:
+    - 100136
+    - 400136
+    spectralsaberworg_1:
+    - 100138
+    - 400138
+    - 13700024
+    spectralsaberworg_8:
+    - 100140
+    - 400140
+    - 13700026
+    spectralsaberworg_Bone13:
+    - 100142
+    - 400142
+    spectralsaberworg_Bone12_ArmR:
+    - 100144
+    - 400144
+    spectralsaberworg_Bone2_Root:
+    - 100146
+    - 400146
+    spectralsaberworg_Bone1:
+    - 100148
+    - 400148
+    spectralsaberworg_Bone0:
+    - 100150
+    - 400150
+    spectralsaberworg_Bone31:
+    - 100152
+    - 400152
+    spectralsaberworg_Bone14:
+    - 100154
+    - 400154
+    spectralsaberworg_Bone15:
+    - 100156
+    - 400156
+    spectralsaberworg_Bone64:
+    - 100158
+    - 400158
+    spectralsaberworg_Bone16:
+    - 100160
+    - 400160
+    spectralsaberworg_Bone65:
+    - 100162
+    - 400162
+    spectralsaberworg_Bone66:
+    - 100164
+    - 400164
+    spectralsaberworg_Bone67:
+    - 100166
+    - 400166
+    _M3_Anim_Data:
+    - 100168
+    - 400168
+    Ref_Overhead:
+    - 100170
+    - 400170
+    Ref_Origin:
+    - 100172
+    - 400172
+    Ref_Head:
+    - 100174
+    - 400174
+    Ref_Target:
+    - 100176
+    - 400176
+    Ref_Weapon Left:
+    - 100178
+    - 400178
+    Ref_Hardpoint:
+    - 100180
+    - 400180
+    Ref_Center:
+    - 100182
+    - 400182
+    Ref_Target 01:
+    - 100184
+    - 400184
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: spectralsaberworg_0
+    4300002: spectralsaberworg_1
+    4300004: spectralsaberworg_2
+    4300006: spectralsaberworg_3
+    4300008: spectralsaberworg_4
+    4300010: spectralsaberworg_5
+    4300012: spectralsaberworg_6
+    4300014: spectralsaberworg_7
+    4300016: spectralsaberworg_8
+    4300018: spectralsaberworg_9
+    4300020: spectralsaberworg_10
+    4300022: spectralsaberworg_11
+    4300024: spectralsaberworg_12
+    4300026: spectralsaberworg_13
+    7400000: Take 001 //// spectralsabreworg
+    7400002: Idle_1 //// spectralsabreworg
+    7400004: Attack_1 //// spectralsabreworg
+    7400006: Death //// spectralsabreworg
+    7400008: Attack_2 //// spectralsabreworg
+    7400010: Idle_2 //// spectralsabreworg
+    7400012: Run //// spectralsabreworg
+    7400014: Sprint //// spectralsabreworg
+    7400016: JumpStart //// spectralsabreworg
+    7400018: JumpEnd //// spectralsabreworg
+    7400020: Jumping //// spectralsabreworg
+    7400022: BattleCry //// spectralsabreworg
+    7400024: Attack_3 //// spectralsabreworg

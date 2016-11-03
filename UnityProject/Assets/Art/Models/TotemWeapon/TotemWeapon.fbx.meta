@@ -1,0 +1,60 @@
+fileFormatVersion: 1
+guid: 04f7deba720671e4fa6b2cb5af4310c0
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Geoset_0:
+    - 100002
+    - 400002
+    Bone_0_7:
+    - 100004
+    - 400004
+    Bone_0_6:
+    - 100006
+    - 400006
+    Bone_0_5:
+    - 100008
+    - 400008
+    Bone_0_4:
+    - 100010
+    - 400010
+    Bone_0_3:
+    - 100012
+    - 400012
+    Bone_0_2:
+    - 100014
+    - 400014
+    Bone_0_1:
+    - 100016
+    - 400016
+    Bone_0_0:
+    - 100018
+    - 400018
+    - 13700000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Geoset_0

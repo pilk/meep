@@ -1,0 +1,283 @@
+fileFormatVersion: 1
+guid: 1045160eeabb47543baa7c282c7f89cc
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+    clips:
+      Idle_1:
+        firstFrame: 1
+        lastFrame: 41
+        loop: 0
+        wrapMode: 0
+      Walk:
+        firstFrame: 105
+        lastFrame: 120
+        loop: 0
+        wrapMode: 0
+      Run:
+        firstFrame: 184
+        lastFrame: 200
+        loop: 0
+        wrapMode: 0
+      Death:
+        firstFrame: 263
+        lastFrame: 383
+        loop: 0
+        wrapMode: 0
+      AttackUnarmed:
+        firstFrame: 446
+        lastFrame: 487
+        loop: 0
+        wrapMode: 0
+      AttackArmed:
+        firstFrame: 551
+        lastFrame: 581
+        loop: 0
+        wrapMode: 0
+      SpellCast:
+        firstFrame: 644
+        lastFrame: 675
+        loop: 0
+        wrapMode: 0
+      Wound:
+        firstFrame: 738
+        lastFrame: 768
+        loop: 0
+        wrapMode: 0
+      BattleCry:
+        firstFrame: 832
+        lastFrame: 914
+        loop: 0
+        wrapMode: 0
+  nodeInfo:
+    Ref_Weapon Left:
+    - 100000
+    - 400000
+    murloc_Bone6:
+    - 100002
+    - 400002
+    murloc_Bone26:
+    - 100004
+    - 400004
+    murloc_Bone22:
+    - 100006
+    - 400006
+    murloc_Bone11:
+    - 100008
+    - 400008
+    murloc_Bone23:
+    - 100010
+    - 400010
+    murloc_Bone7:
+    - 100012
+    - 400012
+    murloc_Bone12:
+    - 100014
+    - 400014
+    murloc_Bone58:
+    - 100016
+    - 400016
+    Ref_Hardpoint:
+    - 100018
+    - 400018
+    murloc_Bone59_CSL:
+    - 100020
+    - 400020
+    Ref_Hardpoint 03:
+    - 100022
+    - 400022
+    murloc_Bone3_SpineLow:
+    - 100024
+    - 400024
+    murloc_Bone9_Head:
+    - 100026
+    - 400026
+    murloc_Bone2_Root:
+    - 100028
+    - 400028
+    murloc_Bone20_Jaw:
+    - 100030
+    - 400030
+    murloc_Bone52_CCH:
+    - 100032
+    - 400032
+    murloc_Bone27_LFingerMiddle:
+    - 100034
+    - 400034
+    Ref_Hardpoint 01:
+    - 100036
+    - 400036
+    murloc_Bone51_Breath:
+    - 100038
+    - 400038
+    Ref_Weapon Right:
+    - 100040
+    - 400040
+    Ref_Hardpoint 02:
+    - 100042
+    - 400042
+    murloc_Bone_Root:
+    - 100044
+    - 400044
+    murloc_Bone28_LThumb:
+    - 100046
+    - 400046
+    murloc_Bone29_RFingerMiddle:
+    - 100048
+    - 400048
+    //RootNode:
+    - 100050
+    - 400050
+    - 11100000
+    murloc_1:
+    - 100052
+    - 400052
+    - 13700000
+    murloc_Bone1:
+    - 100054
+    - 400054
+    murloc_Bone0:
+    - 100056
+    - 400056
+    Ref_Head:
+    - 100058
+    - 400058
+    Ref_Target 01:
+    - 100060
+    - 400060
+    murloc_Bone16:
+    - 100062
+    - 400062
+    murloc_Bone42:
+    - 100064
+    - 400064
+    Ref_Overhead:
+    - 100066
+    - 400066
+    murloc_Bone8:
+    - 100068
+    - 400068
+    murloc_Bone40:
+    - 100070
+    - 400070
+    murloc_Bone15:
+    - 100072
+    - 400072
+    murloc_Bone34:
+    - 100074
+    - 400074
+    murloc_Bone24:
+    - 100076
+    - 400076
+    murloc_Bone13:
+    - 100078
+    - 400078
+    murloc_Bone46:
+    - 100080
+    - 400080
+    Ref_Origin:
+    - 100082
+    - 400082
+    murloc_Bone14:
+    - 100084
+    - 400084
+    murloc_Bone35:
+    - 100086
+    - 400086
+    murloc_Bone21:
+    - 100088
+    - 400088
+    murloc_Bone10:
+    - 100090
+    - 400090
+    murloc_Bone18:
+    - 100092
+    - 400092
+    murloc_Bone38:
+    - 100094
+    - 400094
+    murloc_Bone33:
+    - 100096
+    - 400096
+    murloc_Bone25:
+    - 100098
+    - 400098
+    murloc_Bone45:
+    - 100100
+    - 400100
+    murloc_Bone4:
+    - 100102
+    - 400102
+    murloc_Bone5:
+    - 100104
+    - 400104
+    murloc_Bone43:
+    - 100106
+    - 400106
+    murloc_Bone17:
+    - 100108
+    - 400108
+    murloc_Bone36:
+    - 100110
+    - 400110
+    murloc_0:
+    - 100112
+    - 400112
+    - 13700002
+    murloc_Bone19:
+    - 100114
+    - 400114
+    Ref_Target:
+    - 100116
+    - 400116
+    murloc_Bone39:
+    - 100118
+    - 400118
+    murloc_Bone41:
+    - 100120
+    - 400120
+    _M3_Anim_Data:
+    - 100122
+    - 400122
+    murloc_Bone44:
+    - 100124
+    - 400124
+    murloc_Bone37:
+    - 100126
+    - 400126
+    Ref_Center:
+    - 100128
+    - 400128
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: murloc_0
+    4300002: murloc_1
+    7400000: Take 001 //// murloc
+    7400002: Idle_1 //// murloc
+    7400004: Walk //// murloc
+    7400006: Run //// murloc
+    7400008: Death //// murloc
+    7400010: AttackUnarmed //// murloc
+    7400012: AttackArmed //// murloc
+    7400014: SpellCast //// murloc
+    7400016: Wound //// murloc
+    7400018: BattleCry //// murloc

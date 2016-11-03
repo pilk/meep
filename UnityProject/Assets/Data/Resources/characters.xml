@@ -1,0 +1,32 @@
+﻿<gameData>
+
+  <object name="default"/>
+
+  <character name="defaultCharacter">
+    <layer>character</layer>
+    <allegiance>Team2</allegiance>
+    <healthPoints>1</healthPoints>
+    <speed>2</speed>
+  </character>
+
+  <character name="player" copyFrom="character1">
+    <layer>player</layer>
+    <allegiance>Team1</allegiance>
+    <tag>player</tag>
+  </character>
+
+  <character name="character1" copyFrom="defaultCharacter">
+    <model>tauren</model>
+    <speed>4</speed>
+  </character>
+
+  <character name="chicken" copyFrom="defaultCharacter">
+    <model>chicken</model>
+    <speed>6</speed>
+  </character>
+
+  <character name="murloc" copyFrom="defaultCharacter">
+    <model>murloc</model>
+  </character>
+
+</gameData>

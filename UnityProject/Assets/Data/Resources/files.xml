@@ -1,0 +1,5 @@
+﻿<gameData>
+  <include file="characters"/>
+  <include file="scenes"/>
+  <include file="test"/>
+</gameData>

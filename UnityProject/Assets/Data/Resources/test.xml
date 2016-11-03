@@ -1,0 +1,85 @@
+﻿<gameData>
+
+  <statusGroup name="entityType">
+    <maxStackCount>1</maxStackCount>
+  </statusGroup>
+
+  <statusGroup name="zombieInfectionType">
+    <maxStackCount>2</maxStackCount>
+    <overridePriority>LongestDuration</overridePriority>
+  </statusGroup>
+
+  <status name="zombie">
+    <statusGroupName>zombieInfectionType</statusGroupName>
+    <tickIntervalTime>2</tickIntervalTime>
+    <duration>20</duration>
+    
+    <event eventName="start">
+      <rule function="DebugLog">
+        <data key="text" value="Zombie - started"/>
+      </rule>
+    </event>
+    
+    <!--every frame groan-->
+    <event eventName="tick">
+      <rule name="cueGroan" function="DebugLog">
+        <data key="text" value="Zombie - groaaaan"/>
+      </rule>
+    </event>
+
+    <!--when we kill someone, turn them into a zombie-->
+    <event eventName="on_kill">
+      <rule function="AddStatus">
+        <target>TARGET</target>
+        <status copyFrom="zombie"/>
+      </rule>
+    </event>
+
+    <!--afflict damage to target over time-->
+    <event eventName="on_cause_damage">
+      <rule function="AddStatus">
+        <condition function="HasStatus" result="false">
+          <target>TARGET</target>
+          <value>affliction</value>
+        </condition>
+        <target>TARGET</target>
+        <status name="affliction">
+          <duration>6</duration>
+          <tickIntervalTime>1</tickIntervalTime>
+          <event eventName="tick">
+            <rule function="DebugLog">
+              <data key="text" value="Zombie - bite!"/>
+            </rule>
+            <rule name="damageMe" function="DoDamage">
+              <target>TARGET</target>
+              <!--<damage>6</damage>-->
+            </rule>
+          </event>
+        </status>
+      </rule>
+    </event>
+  </status>
+
+  <status name="victim">
+    <statusGroupName>entityType</statusGroupName>
+    <!--hello world-->
+    <event eventName="start">
+      <rule function="DebugLog">
+        <data key="text" value="Victim - hello world"/>
+      </rule>
+    </event>
+    <!--when taking damage-->
+    <event eventName="on_take_damage">
+      <rule function="DebugLog">
+        <data key="text" value="Victim - ouch!"/>
+      </rule>
+    </event>
+    <!--when dying-->
+    <event eventName="on_death">
+      <rule function="DebugLog">
+        <data key="text" value="Victim - goodbye world!"/>
+      </rule>
+    </event>
+  </status>
+
+</gameData>

@@ -1,0 +1,54 @@
+﻿<gameData>
+
+  <rule name="spawnMainPlayer">
+    
+  </rule>
+
+  <rule name="spawnMainPlayer" function="SpawnPlayer">
+    <data key="name" value="PLAYER"/>
+    <data key="spawner" value="SPWN_PLAYER"/>
+    <data key="character" value="mainPlayer"/>
+  </rule>
+
+
+  <scene name="default">
+    <event eventName="initialize">
+      <rule copyFrom="spawnMainPlayer"/>
+    </event>
+  </scene>
+
+  <scene copyFrom="default" name="1">
+    <random>0</random>
+    <node operation="FIXED" count="1">
+      <node weight="60">
+        <result key="0" value="0"/>
+        <result key="1" value="1"/>
+        <node operation="RANDOM" count="2">
+          <node weight="50" count="2">
+            <result key="2" value="2"/>
+          </node>
+          <node weight="50" >
+            <result key="3" value="3"/>
+          </node>
+        </node>
+        <node weight="40">
+          <result key="6" value="6"/>
+          <result key="7" value="7"/>
+        </node>
+      </node>
+      <node operation="FIXED" count="5">
+        <result key="10" value="10"/>
+        <result key="11" value="11"/>
+      </node>
+    </node>
+  </scene>
+
+
+
+
+
+
+
+
+
+</gameData>

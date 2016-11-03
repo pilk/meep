@@ -1,0 +1,292 @@
+fileFormatVersion: 1
+guid: b9efd6144f6870945b77a9e16c0789ff
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+    clips:
+      Run:
+        firstFrame: 1
+        lastFrame: 16
+        loop: 0
+        wrapMode: 0
+      Walk:
+        firstFrame: 67
+        lastFrame: 100
+        loop: 0
+        wrapMode: 0
+      Idle_1:
+        firstFrame: 151
+        lastFrame: 200
+        loop: 0
+        wrapMode: 0
+      Death:
+        firstFrame: 251
+        lastFrame: 358
+        loop: 0
+        wrapMode: 0
+      Attack_1:
+        firstFrame: 409
+        lastFrame: 433
+        loop: 0
+        wrapMode: 0
+      Attack_2:
+        firstFrame: 485
+        lastFrame: 508
+        loop: 0
+        wrapMode: 0
+      Wound:
+        firstFrame: 559
+        lastFrame: 575
+        loop: 0
+        wrapMode: 0
+      Special:
+        firstFrame: 626
+        lastFrame: 701
+        loop: 0
+        wrapMode: 0
+      JumpStart:
+        firstFrame: 752
+        lastFrame: 772
+        loop: 0
+        wrapMode: 0
+      JumpEnd:
+        firstFrame: 962
+        lastFrame: 982
+        loop: 0
+        wrapMode: 0
+      Jumping:
+        firstFrame: 823
+        lastFrame: 842
+        loop: 0
+        wrapMode: 0
+      Fall:
+        firstFrame: 893
+        lastFrame: 912
+        loop: 0
+        wrapMode: 0
+  nodeInfo:
+    chickenmount15_Bone32:
+    - 100000
+    - 400000
+    chickenmount15_Bone26:
+    - 100002
+    - 400002
+    Ref_Weapon Right:
+    - 100004
+    - 400004
+    chickenmount15_Bone31:
+    - 100006
+    - 400006
+    chickenmount15_Bone21:
+    - 100008
+    - 400008
+    chickenmount15_Bone0:
+    - 100010
+    - 400010
+    chickenmount15_Bone36:
+    - 100012
+    - 400012
+    chickenmount15_Bone15:
+    - 100014
+    - 400014
+    chickenmount15_Bone6:
+    - 100016
+    - 400016
+    Ref_Hardpoint 02:
+    - 100018
+    - 400018
+    Ref_Hardpoint 01:
+    - 100020
+    - 400020
+    chickenmount15_Bone19_Head:
+    - 100022
+    - 400022
+    chickenmount15_Bone16:
+    - 100024
+    - 400024
+    chickenmount15_1:
+    - 100026
+    - 400026
+    - 13700000
+    chickenmount15_Bone53_CSL:
+    - 100028
+    - 400028
+    chickenmount15_Bone30:
+    - 100030
+    - 400030
+    chickenmount15_Bone20:
+    - 100032
+    - 400032
+    chickenmount15_Bone33:
+    - 100034
+    - 400034
+    chickenmount15_Bone55:
+    - 100036
+    - 400036
+    chickenmount15_Bone27:
+    - 100038
+    - 400038
+    chickenmount15_Bone11:
+    - 100040
+    - 400040
+    chickenmount15_Bone44:
+    - 100042
+    - 400042
+    chickenmount15_Bone40:
+    - 100044
+    - 400044
+    chickenmount15_Bone1:
+    - 100046
+    - 400046
+    chickenmount15_Bone18:
+    - 100048
+    - 400048
+    chickenmount15_Bone4_Waist:
+    - 100050
+    - 400050
+    chickenmount15_Bone_Root:
+    - 100052
+    - 400052
+    chickenmount15_Bone28:
+    - 100054
+    - 400054
+    chickenmount15_Bone22:
+    - 100056
+    - 400056
+    chickenmount15_Bone9:
+    - 100058
+    - 400058
+    chickenmount15_Bone56:
+    - 100060
+    - 400060
+    chickenmount15_Bone29:
+    - 100062
+    - 400062
+    chickenmount15_Bone47:
+    - 100064
+    - 400064
+    chickenmount15_Bone2_Root:
+    - 100066
+    - 400066
+    chickenmount15_Bone54:
+    - 100068
+    - 400068
+    chickenmount15_Bone8:
+    - 100070
+    - 400070
+    chickenmount15_Bone7:
+    - 100072
+    - 400072
+    chickenmount15_Bone42:
+    - 100074
+    - 400074
+    chickenmount15_0:
+    - 100076
+    - 400076
+    - 13700002
+    chickenmount15_Bone10:
+    - 100078
+    - 400078
+    chickenmount15_Bone14:
+    - 100080
+    - 400080
+    chickenmount15_Bone13_ArmR:
+    - 100082
+    - 400082
+    chickenmount15_Bone5:
+    - 100084
+    - 400084
+    chickenmount15_Bone39:
+    - 100086
+    - 400086
+    chickenmount15_Bone17:
+    - 100088
+    - 400088
+    chickenmount15_Bone12_ArmL:
+    - 100090
+    - 400090
+    chickenmount15_Bone38:
+    - 100092
+    - 400092
+    chickenmount15_Bone37:
+    - 100094
+    - 400094
+    chickenmount15_Bone3_SpineLow:
+    - 100096
+    - 400096
+    chickenmount15_Bone52_CHD:
+    - 100098
+    - 400098
+    chickenmount15_Bone51:
+    - 100100
+    - 400100
+    Ref_Hardpoint 03:
+    - 100102
+    - 400102
+    Ref_Weapon Left:
+    - 100104
+    - 400104
+    Mount_Joint:
+    - 100106
+    - 400106
+    Ref_Target 01:
+    - 100108
+    - 400108
+    Ref_Target:
+    - 100110
+    - 400110
+    Ref_Center:
+    - 100112
+    - 400112
+    //RootNode:
+    - 100114
+    - 400114
+    - 11100000
+    _M3_Anim_Data:
+    - 100116
+    - 400116
+    Ref_Overhead:
+    - 100118
+    - 400118
+    Ref_Origin:
+    - 100120
+    - 400120
+    Ref_Head:
+    - 100122
+    - 400122
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: chickenmount15_0
+    4300002: chickenmount15_1
+    7400000: Take 001 //// ChickenMount
+    7400002: Run //// ChickenMount
+    7400004: Walk //// ChickenMount
+    7400006: Idle_1 //// ChickenMount
+    7400008: Death //// ChickenMount
+    7400010: Attack_1 //// ChickenMount
+    7400012: Attack_2 //// ChickenMount
+    7400014: Wound //// ChickenMount
+    7400016: Special //// ChickenMount
+    7400018: JumpStart //// ChickenMount
+    7400020: JumpEnd //// ChickenMount
+    7400022: Jumping //// ChickenMount
+    7400024: Fall //// ChickenMount
